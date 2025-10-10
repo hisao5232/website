@@ -7,3 +7,17 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// assets/css/main.scss
+$brand-primary: #007acc;
+$brand-secondary: #84fab0;
+$font-sans: "Noto Sans JP", sans-serif;
+
+body {
+  font-family: $font-sans;
+}
+
+a {
+  color: $brand-primary;
+  font-weight: bold;
+}
