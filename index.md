@@ -1,29 +1,18 @@
 ---
-layout: home
-title: "Hisao Portfolio"
-hero:
-  title: "ようこそ Hisao のポートフォリオへ"
-  image: "/assets/images/hero.jpg"
-  tagline: "Python・自動化・データ分析の学びと作品"
-# カード表示用のprojectsセクション
-projects:
-  - title: "自動化スクリプト集"
-    description: "日常作業をPythonで自動化したプロジェクト"
-    image: "/assets/images/project1.jpg"
-    url: "https://github.com/hisao5232/auto-scripts"
-  - title: "データ分析ポートフォリオ"
-    description: "株価やニュースデータを分析したサンプル集"
-    image: "/assets/images/project2.jpg"
-    url: "https://github.com/hisao5232/data-analysis"
-  - title: "Webスクレイピング集"
-    description: "Amazonやニュースサイトのデータ取得スクリプト"
-    image: "/assets/images/project3.jpg"
-    url: "https://github.com/hisao5232/web-scraping"
+layout: default
+title: ホーム
 ---
 
-## 最新記事
-- [Zenn記事1](https://zenn.dev/hisao5232/articles/xxxxx)
-- [Zenn記事2](https://zenn.dev/hisao5232/articles/yyyyy)
+# ようこそ
 
-## お問い合わせ
-- メール: yourname@example.com
+このサイトでは、家庭と技術の交差点にある知見やメモを共有しています。
+
+## 最近のトピック
+
+- WireGuard VPN の設定方法
+- 家庭用フィルターのメンテナンス記録
+- 金融商品の比較と活用法
+
+---
+
+何か気になることがあれば、[GitHub Issues](https://github.com/yourusername/your-repo/issues) からどうぞ。
