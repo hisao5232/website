@@ -13,7 +13,7 @@ title: Home
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem; /* 左右のパディングを狭くして文字を中央寄りに */
   z-index: 10;
   backdrop-filter: blur(6px);
 ">
@@ -26,7 +26,7 @@ title: Home
   </div>
 
   <!-- ナビ項目 -->
-  <div style="display: flex; gap: 2rem; font-size: 1.1em;">
+  <div style="display: flex; gap: 1.5rem; font-size: 1.1em;">
     <a href="/" style="color: white; text-decoration: none;">Home</a>
     <a href="/articles" style="color: white; text-decoration: none;">Articles</a>
     <a href="/about" style="color: white; text-decoration: none;">About</a>
@@ -36,19 +36,22 @@ title: Home
 
 <!-- フルスクリーン・レスポンシブ ヒーローイメージ -->
 <div style="
+  position: relative;
   width: 100%;
   height: 100vh;
-  margin-top: 0; /* ナビバーの高さによるずれ調整 */
   overflow: hidden;
+  margin: 0; /* 余白をリセット */
 ">
   <img src="/assets/images/hero.jpg"
        alt="Hero Image"
        style="
-         width: 100vw;
-         height: 100vh;
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
          object-fit: cover;
          object-position: center;
-         display: block;
        ">
 </div>
 
@@ -72,15 +75,14 @@ title: Home
   gap: 1rem;
 ">
 
-  <img src="/assets/images/profile.png" alt="Profile" style="
+  <img src="/assets/images/profile.jpg" alt="Profile" style="
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
+    object-fit: cover; /* border-radius削除で丸くならない */
   ">
 
   <div>
-    <p>サイト運営者: hisao</p>
+    <p>サイト運営者: Your Name</p>
     <p>Python × 副業 × 自動化</p>
   </div>
 </footer>
