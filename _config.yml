@@ -1,40 +1,28 @@
 title: "Hisao Portfolio"
 description: "Python・自動化・データ分析の学びと作品"
 url: "https://go-pro-world.net"
-baseurl: "" # ルートで公開する場合は空のままでOK
+baseurl: ""
 
-# テーマ設定
-theme: "minimal-mistakes-jekyll"
+# Minimal Mistakes を外部から読み込む設定
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-# 作者情報
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
 author:
   name: "Hisao"
   email: "yourname@example.com"
 
-# プラグイン（SEO・RSSなど）
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# SNSリンクや表示設定（オプション）
-social:
-  github: hisao5232
-  zenn: hisao5232
-
-# ナビゲーション設定（オプション）
 header_pages:
   - index.md
   - about.md
   - contact.md
 
-# ページタイトルのフォーマット
 title_separator: "｜"
-
-# 表示設定
 show_excerpts: true
 excerpt_separator: "<!--more-->"
-
-# Markdown設定
 markdown: kramdown
 kramdown:
   input: GFM
