@@ -3,9 +3,19 @@ layout: default
 title: ホーム
 ---
 
-# ようこそ
+<!-- ヒーローイメージセクション -->
+<div style="position: relative; text-align: center; color: white;">
 
-このサイトでは、家庭と技術の交差点にある知見やメモを共有しています。
+  <!-- 背景画像 -->
+  <img src="/assets/images/hero.jpg" alt="Hero Image" style="width: 100%; height: 400px; object-fit: cover; opacity: 0.8;">
+
+  <!-- テキストオーバーレイ -->
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+    <h1 style="font-size: 3em; font-weight: bold;">ようこそ Go Pro World へ</h1>
+    <p style="font-size: 1.2em;">Python × 副業 × 自動化 の世界へ</p>
+  </div>
+
+</div>
 
 ## 最近のトピック
 
