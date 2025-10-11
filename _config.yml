@@ -2,7 +2,7 @@ title: "Hisao Portfolio"
 description: "Python・自動化・データ分析の学びと作品"
 url: "https://go-pro-world.net"
 baseurl: ""
-theme: minimal-mistakes-jekyll
+theme: null
 author:
   name: "Hisao"
   email: "yourname@example.com"
