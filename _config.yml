@@ -1,28 +1,33 @@
+# =====================================
+# Jekyll + Minimal Mistakes 設定ファイル
+# =====================================
+
 title: "Hisao Portfolio"
 description: "Python・自動化・データ分析の学びと作品"
 url: "https://go-pro-world.net"
 baseurl: ""
 
-# Minimal Mistakes を外部から読み込む設定
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+# ✅ GitHub Pages 対応バージョンに変更
+remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 
 plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-include-cache
 
 author:
   name: "Hisao"
   email: "yourname@example.com"
 
-header_pages:
-  - index.md
-  - about.md
-  - contact.md
+# ページネーションなど
+paginate: 5
+paginate_path: "/page:num/"
 
-title_separator: "｜"
-show_excerpts: true
-excerpt_separator: "<!--more-->"
-markdown: kramdown
-kramdown:
-  input: GFM
+# ソーシャルなど（必要に応じて）
+footer:
+  links:
+    - label: "Feed"
+      icon: "rss"
+      url: "/feed.xml"
