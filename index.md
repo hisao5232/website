@@ -35,24 +35,36 @@ title: Home
 </nav>
 
 <!-- フルスクリーン・レスポンシブ ヒーローイメージ -->
-<div style="
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0; /* 余白をリセット */
-">
-  <img src="/assets/images/hero.jpg"
-       alt="Hero Image"
-       style="
-         position: absolute;
-         top: 0;
-         left: 0;
-         width: 100%;
-         height: 100%;
-         object-fit: cover;
-         object-position: center;
-       ">
+<style>
+  .hero-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .hero-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  / Slateの中央寄せを打ち消す /
+  .page {
+    max-width: none;
+    padding: 0;
+    margin: 0;
+  }
+</style>
+
+<div class="hero-container">
+  <img src="/assets/images/hero.jpg" alt="Hero Image">
 </div>
 
 ---
@@ -75,14 +87,14 @@ title: Home
   gap: 1rem;
 ">
 
-  <img src="/assets/images/profile.jpg" alt="Profile" style="
+  <img src="/assets/images/profile.png" alt="Profile" style="
     width: 50px;
     height: 50px;
     object-fit: cover; /* border-radius削除で丸くならない */
   ">
 
   <div>
-    <p>サイト運営者: Your Name</p>
+    <p>サイト運営者: hisao</p>
     <p>Python × 副業 × 自動化</p>
   </div>
 </footer>
