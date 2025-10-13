@@ -1,4 +1,3 @@
-title: Go-out-into-PG-world
-description: python engineer
-theme: minima
-markdown: kramdown
+title: Go-into-PG-world
+description: Python × JavaScript による業務効率化・Web開発・スクレイピングの学習記録
+theme: jekyll-theme-modernist
