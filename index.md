@@ -3,7 +3,60 @@ layout: default
 title: Go-into-PG-world
 ---
 
-# 🐍 Go-into-PG-world
+<style>
+/* ===== ナビゲーションバーのスタイル ===== */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+  font-family: "Segoe UI", sans-serif;
+}
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.navbar a:hover {
+  color: #007acc;
+}
+
+/* ===== アイコンリンクのスタイル ===== */
+.icon-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.icon-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.icon-links svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.icon-links a:hover {
+  color: #007acc;
+}
+</style>
+
+<div class="navbar">
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+  <a href="/article">Article</a>
+  <a href="/contact">Contact</a>
+</div>
+
+#  Go-into-PG-world
 
 ようこそ！このサイトは、**Python** や **JavaScript** を使った  
 **業務効率化ツール**、**Webアプリ開発**、**スクレイピング** などの  
@@ -14,36 +67,44 @@ title: Go-into-PG-world
 ## 🚀 学習・開発テーマ
 
 - 🧰 **業務効率化ツール開発**  
-  日常業務を自動化するためのPythonスクリプトやBotの開発。
+  Pythonスクリプトや自動化Botの開発記録。
 
 - 🌐 **Webアプリ制作**  
-  Flask・Streamlit・Kivyなどを用いたWeb・モバイルアプリ開発。
+  Flask・Streamlit・Kivyを用いたWeb・モバイルアプリ開発。
 
 - 🔎 **スクレイピング**  
-  BeautifulSoup・Playwrightなどでニュースや株式情報を自動収集。
+  BeautifulSoup・Playwrightによる情報収集・分析。
 
 ---
 
-## ✍️ 記事・アウトプット
+## 🔗 Links
 
-これまでの学習記録や技術記事は、以下のリンクで公開しています。
+<div class="icon-links">
+  <a href="https://zenn.dev/hisao5232/" target="_blank" rel="noopener">
+    <!-- Zenn アイコン (SVG) -->
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M4 4h16v4H8l12 12H4v-4h12L4 4z"/>
+    </svg>
+    Zenn
+  </a>
 
-- 🧠 **Zenn**: [https://zenn.dev/](https://zenn.dev/)  
-- 💻 **GitHub**: [https://github.com/](https://github.com/)
-
-（※ ご自身のURLに置き換えてください）
+  <a href="https://github.com/hisao5232/" target="_blank" rel="noopener">
+    <!-- GitHub アイコン (SVG) -->
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 .297a12 12 0 0 0-3.797 23.392c.6.111.82-.258.82-.577v-2.24c-3.338.726-4.042-1.61-4.042-1.61-.546-1.39-1.333-1.76-1.333-1.76-1.09-.744.083-.729.083-.729 1.205.086 1.84 1.239 1.84 1.239 1.07 1.835 2.809 1.305 3.495.998.108-.775.419-1.306.762-1.606-2.665-.303-5.466-1.333-5.466-5.93 0-1.31.468-2.38 1.236-3.22-.124-.303-.536-1.523.117-3.176 0 0 1.008-.323 3.3 1.23a11.52 11.52 0 0 1 3-.404c1.02.005 2.04.138 3 .404 2.29-1.553 3.297-1.23 3.297-1.23.654 1.653.242 2.873.118 3.176.77.84 1.236 1.91 1.236 3.22 0 4.61-2.804 5.625-5.476 5.922.43.372.823 1.104.823 2.226v3.293c0 .319.218.694.825.576A12 12 0 0 0 12 .297z"/>
+    </svg>
+    GitHub
+  </a>
+</div>
 
 ---
 
 ## 💡 今後の目標
 
-- より効率的な自動化ツールの開発  
-- VPS環境でのAPI運用・可視化  
-- Python × JavaScriptによるフルスタック構成の実践  
+- 自動化ツールのさらなる最適化  
+- VPS + API構成での定期実行・通知処理  
+- Python × JavaScriptによるフルスタック構築
 
 ---
 
-📩 ご意見・ご質問などありましたら、お気軽にどうぞ！
-
----
 © 2025 Go-into-PG-world
