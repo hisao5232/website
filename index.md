@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Go-into-PG-world
+title: Go-out-into-PG-world
 ---
 
 <style>
@@ -56,7 +56,9 @@ title: Go-into-PG-world
   <a href="/contact">Contact</a>
 </div>
 
-#  Go-into-PG-world
+<img src="/assets/images/header.png" alt="Go-into-PG-world ヘッダー画像">
+
+#  Go-out-into-PG-world
 
 ようこそ！このサイトは、**Python** や **JavaScript** を使った  
 **業務効率化ツール**、**Webアプリ開発**、**スクレイピング** などの  
@@ -107,4 +109,4 @@ title: Go-into-PG-world
 
 ---
 
-© 2025 Go-into-PG-world
+© 2025 Go-out-into-PG-world

@@ -12,7 +12,7 @@ title: About
 
 # 👤 About
 
-このサイト「Go-into-PG-world」は、  
+このサイト「Go-out-into-PG-world」は、  
 **Python** と **JavaScript** を中心に学んだ知識や  
 開発経験を記録・発信するために作成しました。
 
