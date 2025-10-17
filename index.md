@@ -3,60 +3,11 @@ layout: default
 title: Go-out-into-PG-world
 ---
 
-<style>
-/* ===== ナビゲーションバーのスタイル ===== */
-.navbar {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  padding: 1rem;
-  background-color: #f2f2f2;
-  border-bottom: 1px solid #ddd;
-  font-family: "Segoe UI", sans-serif;
-}
-.navbar a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 600;
-  transition: color 0.2s;
-}
-.navbar a:hover {
-  color: #007acc;
-}
+{% include header.html %}
 
-/* ===== アイコンリンクのスタイル ===== */
-.icon-links {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-}
-.icon-links a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-.icon-links svg {
-  width: 20px;
-  height: 20px;
-  vertical-align: middle;
-}
-.icon-links a:hover {
-  color: #007acc;
-}
-</style>
-
-<div class="navbar">
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/article">Article</a>
-  <a href="/contact">Contact</a>
+<div class="header-image">
+  <img src="/assets/header.jpg" alt="Go-into-PG-world ヘッダー画像">
 </div>
-
-<img src="/assets/images/header.png" alt="Go-into-PG-world ヘッダー画像">
 
 #  Go-out-into-PG-world
 

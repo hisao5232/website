@@ -3,12 +3,7 @@ layout: default
 title: Article
 ---
 
-<div class="navbar">
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/article">Article</a>
-  <a href="/contact">Contact</a>
-</div>
+{% include header.html %}
 
 # 📝 Articles
 
