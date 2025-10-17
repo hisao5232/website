@@ -6,7 +6,7 @@ title: Go-out-into-PG-world
 {% include header.html %}
 
 <div class="header-image">
-  <img src="/assets/images/header.jpg" alt="Go-into-PG-world ヘッダー画像">
+  <img src="/assets/images/header.png" alt="Go-into-PG-world ヘッダー画像">
 </div>
 
 #  Go-out-into-PG-world
