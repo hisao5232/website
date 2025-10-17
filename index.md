@@ -3,13 +3,80 @@ layout: default
 title: Go-out-into-PG-world
 ---
 
-{% include header.html %}
+<style>
+/* ===== ナビゲーションバー ===== */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  font-family: "Segoe UI", "Hiragino Sans", sans-serif;
+}
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.navbar a:hover {
+  color: #007acc;
+}
 
+/* ===== ヘッダー画像 ===== */
+.header-image {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+.header-image img {
+  width: 80%;
+  max-width: 800px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== アイコンリンク ===== */
+.icon-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+.icon-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.icon-links a:hover {
+  color: #007acc;
+}
+.icon-links svg {
+  width: 24px;
+  height: 24px;
+}
+</style>
+
+<!-- ===== ナビゲーションバー ===== -->
+<div class="navbar">
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+  <a href="/article">Article</a>
+  <a href="/contact">Contact</a>
+</div>
+
+<!-- ===== ヘッダー画像 ===== -->
 <div class="header-image">
   <img src="/assets/images/header.png" alt="Go-into-PG-world ヘッダー画像">
 </div>
 
-#  Go-out-into-PG-world
+# 🐍 Go-out-into-PG-world
 
 ようこそ！このサイトは、**Python** や **JavaScript** を使った  
 **業務効率化ツール**、**Webアプリ開発**、**スクレイピング** などの  
@@ -34,7 +101,7 @@ title: Go-out-into-PG-world
 
 <div class="icon-links">
   <a href="https://zenn.dev/hisao5232/" target="_blank" rel="noopener">
-    <!-- Zenn アイコン (SVG) -->
+    <!-- Zenn アイコン -->
     <svg viewBox="0 0 24 24" fill="currentColor">
       <path d="M4 4h16v4H8l12 12H4v-4h12L4 4z"/>
     </svg>
@@ -42,7 +109,7 @@ title: Go-out-into-PG-world
   </a>
 
   <a href="https://github.com/hisao5232/" target="_blank" rel="noopener">
-    <!-- GitHub アイコン (SVG) -->
+    <!-- GitHub アイコン -->
     <svg viewBox="0 0 24 24" fill="currentColor">
       <path d="M12 .297a12 12 0 0 0-3.797 23.392c.6.111.82-.258.82-.577v-2.24c-3.338.726-4.042-1.61-4.042-1.61-.546-1.39-1.333-1.76-1.333-1.76-1.09-.744.083-.729.083-.729 1.205.086 1.84 1.239 1.84 1.239 1.07 1.835 2.809 1.305 3.495.998.108-.775.419-1.306.762-1.606-2.665-.303-5.466-1.333-5.466-5.93 0-1.31.468-2.38 1.236-3.22-.124-.303-.536-1.523.117-3.176 0 0 1.008-.323 3.3 1.23a11.52 11.52 0 0 1 3-.404c1.02.005 2.04.138 3 .404 2.29-1.553 3.297-1.23 3.297-1.23.654 1.653.242 2.873.118 3.176.77.84 1.236 1.91 1.236 3.22 0 4.61-2.804 5.625-5.476 5.922.43.372.823 1.104.823 2.226v3.293c0 .319.218.694.825.576A12 12 0 0 0 12 .297z"/>
     </svg>
