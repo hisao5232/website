@@ -7,22 +7,22 @@ title: Go-out-into-PG-world
 /* ===== ナビゲーションバー ===== */
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-around; /* 等間隔に配置 */
   align-items: center;
-  gap: 2rem;
-  padding: 1rem;
-  background-color: #f5f5f5;
-  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+  background-color: #000; /* 黒背景 */
   font-family: "Segoe UI", "Hiragino Sans", sans-serif;
 }
 .navbar a {
   text-decoration: none;
-  color: #333;
+  color: #fff; /* 白文字 */
   font-weight: 600;
-  transition: color 0.2s;
+  letter-spacing: 0.5px;
+  transition: color 0.2s, transform 0.2s;
 }
 .navbar a:hover {
-  color: #007acc;
+  color: #00bfff; /* ホバー時は水色 */
+  transform: translateY(-2px);
 }
 
 /* ===== ヘッダー画像 ===== */
@@ -35,7 +35,7 @@ title: Go-out-into-PG-world
   width: 80%;
   max-width: 800px;
   border-radius: 16px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* ===== アイコンリンク ===== */

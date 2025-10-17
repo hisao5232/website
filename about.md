@@ -3,24 +3,71 @@ layout: default
 title: About
 ---
 
-{% include header.html %}
+<style>
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #000;
+  font-family: "Segoe UI", "Hiragino Sans", sans-serif;
+}
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: color 0.2s, transform 0.2s;
+}
+.navbar a:hover {
+  color: #00bfff;
+  transform: translateY(-2px);
+}
+.page-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+</style>
 
-# 👤 About
+<div class="navbar">
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+  <a href="/article">Article</a>
+  <a href="/contact">Contact</a>
+</div>
 
-このサイト「Go-out-into-PG-world」は、  
-**Python** と **JavaScript** を中心に学んだ知識や  
-開発経験を記録・発信するために作成しました。
+<div class="page-container">
+
+# 💬 About
+
+このサイト **Go-out-into-PG-world** は、  
+Python・JavaScriptを中心に、業務効率化やWebアプリ開発、スクレイピングの学習・制作を記録する個人ポートフォリオです。
 
 ---
 
-## 🔧 スキルセット
-- Python（Flask / Streamlit / Playwright / BeautifulSoup）
-- JavaScript（Node.js / Frontend / API連携）
-- SQL・データ処理・業務自動化
-- Git / GitHub Actions / VPS 運用
+## 🎯 このサイトの目的
+- 自分の学習・開発記録を整理し、共有すること  
+- 同じように学習している人に役立つ情報を発信すること  
+- 将来的な案件・副業の実績を示すこと  
 
 ---
 
-## 🎯 目的
-学んだ技術を体系的に整理し、  
-将来的には他のエンジニアの参考になる情報を発信していくことを目指しています。
+## 🧠 スキル・興味分野
+- **Python**：業務自動化、スクレイピング、API開発  
+- **JavaScript**：フロント開発、Webアプリ実装  
+- **Streamlit / Flask**：データ可視化、ツール構築  
+- **VPS運用**：定期実行・APIサーバ構成  
+
+---
+
+## 🪄 今後の展望
+- Python × JS のフルスタック環境構築  
+- KivyによるAndroidアプリ開発  
+- 学習記事をZennで継続発信  
+
+---
+
+</div>
