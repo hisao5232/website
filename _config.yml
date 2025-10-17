@@ -1,3 +1,6 @@
 title: Go-into-PG-world
 description: Python × JavaScript による業務効率化・Web開発・スクレイピングの学習記録
 theme: jekyll-theme-modernist
+markdown: kramdown
+kramdown:
+  parse_block_html: true
